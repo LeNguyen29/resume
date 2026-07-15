@@ -102,6 +102,7 @@ body {
     padding: 20px;
 }
 
+/* Education Subsection */
 .degree_card {
     background-color: #767676;
     color: white;
@@ -131,6 +132,34 @@ body {
 .degree_card .school_name {
     font-size: 15pt;
     font-weight: 400;
+}
+
+/* Publications Subsection */
+.pub_paper {
+    background-color: #767676;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pub_paper p {
+    margin-bottom: 0;
+}
+
+.pub_paper .paper_loc {
+    font-style: italic;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+
+.pub_paper a {
+    text-decoration: none;
+    color: var(--resume_sub_big_txt_color);
+}
+
+.pub_paper a:hover {
+    color: rgb(0, 75, 129);
 }
 
 /* Experience Timeline */
