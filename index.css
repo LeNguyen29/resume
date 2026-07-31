@@ -256,7 +256,6 @@ body {
 
 .proj_img {
     max-width: 100%;
-    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -273,6 +272,8 @@ body {
     height: auto;
     object-fit: cover;
     transition: transform 0.4s ease; /* Animates the zoom smoothly */
+    border: 3px solid rgb(174, 174, 174);
+    border-radius: 8px;
 }
 
 .proj_link:hover img {
