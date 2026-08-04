@@ -94,13 +94,23 @@ body {
 }
 
 .skill_logos {
-    margin-top: 20px;
+    width: 100%;
     border-radius: 5px;
     background-color: #D9D9D9;
 }
 
-.gallery-img {
-    padding: 20px;
+.skill_card {
+    background-color: rgb(181, 181, 181);
+    border-radius: 5px;
+}
+
+.skill_card p {
+    color: rgb(79, 79, 79);
+    font-weight: bold;
+}
+
+.skill_card img {
+    max-width: 40px;
 }
 
 /* Education Subsection */
