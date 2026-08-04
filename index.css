@@ -304,7 +304,13 @@ body {
 }
 
 .proj_link .overlay_txt p {
-    max-width: 32ch;
+    max-width: 34ch;
+    margin: 0;
+}
+
+.proj_link .overlay_txt .link_ins{
+    color: grey;
+    font-style: italic;
 }
 
 .proj_link:hover .overlay_txt {
